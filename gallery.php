@@ -84,7 +84,7 @@ function kk_delete_all_tables(){
  */
 
 function kk_create_folder(){
-    $patch = "kk-gallery\gallery-img";
+    $patch = "kk-gallery/gallery-img";
     if(!is_dir($patch)){mkdir($patch);}
 }
 
